@@ -1,0 +1,11 @@
+package controller;
+
+@Controller
+public class IndexController {
+	@RequestMapping("/index")
+	public void say()
+	{
+		return "index";
+	}
+
+}

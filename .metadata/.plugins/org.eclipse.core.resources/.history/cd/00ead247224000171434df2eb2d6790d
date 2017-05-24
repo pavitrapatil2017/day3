@@ -1,0 +1,11 @@
+package com.telesco;
+
+@Controller
+public class AddController {
+	@RequestMapping("/add")
+	public void add()
+	{
+		System.out.println("i am here");
+	}
+
+}
